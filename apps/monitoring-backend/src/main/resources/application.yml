@@ -1,0 +1,2 @@
+spring.devtools.livereload.port: 36119
+server.port: 36910

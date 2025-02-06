@@ -1,0 +1,285 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.4.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/cypress/plugin",
+      "options": {
+        "targetName": "e2e",
+        "openTargetName": "open-cypress",
+        "componentTestingTargetName": "component-test",
+        "ciTargetName": "e2e-ci"
+      }
+    },
+    {
+      "name": "@nxrocks/nx-spring-boot",
+      "version": "^10.2.6",
+      "options": {
+        "buildTargetName": "build",
+        "installTargetName": "install",
+        "testTargetName": "test",
+        "cleanTargetName": "clean",
+        "formatTargetName": "format",
+        "applyFormatTargetName": "apply-format",
+        "checkFormatTargetName": "check-format",
+        "runTargetName": "run",
+        "serveTargetName": "serve",
+        "buildImageTargetName": "build-image",
+        "buildInfoTargetName": "build-info"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "16349444344512391871"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "17866138117546000433"
+      },
+      {
+        "file": ".github/workflows/ci.yml",
+        "hash": "1557864486882838494"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "14564102421683386722"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16448050467312557263"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4134969992917317260"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "16977052744920844952"
+      },
+      {
+        "file": "nx.json",
+        "hash": "18434748603688558921"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15435296375592552071"
+      },
+      {
+        "file": "package.json",
+        "hash": "6379520181216299965"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "2901341810468272301"
+      },
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "10510818307242693271"
+      }
+    ],
+    "projectFileMap": {
+      "monitoring-frontend-e2e": [
+        {
+          "file": "apps/monitoring-frontend-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/cypress.config.ts",
+          "hash": "11942610436327298517",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/project.json",
+          "hash": "13007826820686982554"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "14701012643390378531"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
+        }
+      ],
+      "monitoring-frontend": [
+        {
+          "file": "apps/monitoring-frontend/.eslintrc.json",
+          "hash": "11012487992710232822"
+        },
+        {
+          "file": "apps/monitoring-frontend/index.html",
+          "hash": "9762197514289266974"
+        },
+        {
+          "file": "apps/monitoring-frontend/postcss.config.js",
+          "hash": "10671869409965183632"
+        },
+        {
+          "file": "apps/monitoring-frontend/project.json",
+          "hash": "5282479594257060758"
+        },
+        {
+          "file": "apps/monitoring-frontend/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/monitoring-frontend/src/app/app.spec.tsx",
+          "hash": "8529084225887293101",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend/src/app/app.tsx",
+          "hash": "3787340319167461935",
+          "deps": [
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend/src/app/nx-welcome.tsx",
+          "hash": "14708174282304233720"
+        },
+        {
+          "file": "apps/monitoring-frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/monitoring-frontend/src/main.tsx",
+          "hash": "6494962159756833686",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend/src/styles.css",
+          "hash": "9540575453073076294"
+        },
+        {
+          "file": "apps/monitoring-frontend/tailwind.config.js",
+          "hash": "5615783893699774205",
+          "deps": [
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend/tsconfig.app.json",
+          "hash": "3374933587361460334"
+        },
+        {
+          "file": "apps/monitoring-frontend/tsconfig.json",
+          "hash": "11166545116916107487"
+        },
+        {
+          "file": "apps/monitoring-frontend/tsconfig.spec.json",
+          "hash": "2374680567064402239"
+        },
+        {
+          "file": "apps/monitoring-frontend/vite.config.mts",
+          "hash": "4860920474133079456",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "monitoring-backend": [
+        {
+          "file": "apps/monitoring-backend/.gitattributes",
+          "hash": "6003687593561338678"
+        },
+        {
+          "file": "apps/monitoring-backend/.gitignore",
+          "hash": "13117984693027047402"
+        },
+        {
+          "file": "apps/monitoring-backend/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "7720921598456675219"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw.cmd",
+          "hash": "13144227073390459929"
+        },
+        {
+          "file": "apps/monitoring-backend/pom.xml",
+          "hash": "9233756504339227761"
+        },
+        {
+          "file": "apps/monitoring-backend/project.json",
+          "hash": "16077863284392115224"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
+          "hash": "10227958509849902035"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/controller/HelloWorldController.java",
+          "hash": "4883338053699564421"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/resources/application.yml",
+          "hash": "2201160999119002749"
+        },
+        {
+          "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
+          "hash": "11854449020652478289"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "monitoring-frontend-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/monitoring-frontend-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["monitoring-frontend"],
+  "// targets": "to see all targets run: nx show project monitoring-frontend-e2e --web",
+  "targets": {}
+}
