@@ -3,5 +3,14 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/monitoring-backend/src",
   "tags": [],
-  "implicitDependencies": ["spring-boot-app-parent"]
+  "implicitDependencies": ["spring-boot-app-parent"],
+  "targets": {
+    "build-image": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "apps/monitoring-backend",
+        "command": "docker build -t rasb/monitoring-backend ."
+      }
+    }
+  }
 }
