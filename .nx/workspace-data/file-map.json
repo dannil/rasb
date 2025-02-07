@@ -106,124 +106,6 @@
       }
     ],
     "projectFileMap": {
-      "monitoring-frontend-e2e": [
-        {
-          "file": "apps/monitoring-frontend-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/cypress.config.ts",
-          "hash": "11942610436327298517",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/project.json",
-          "hash": "13007826820686982554"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "14701012643390378531"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/tsconfig.json",
-          "hash": "10740392072068377465"
-        }
-      ],
-      "spring-boot-app-parent": [
-        {
-          "file": "libs/spring-boot-app-parent/.gitattributes",
-          "hash": "6003687593561338678"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/.gitignore",
-          "hash": "13117984693027047402"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/.mvn/wrapper/maven-wrapper.properties",
-          "hash": "17371307258817685141"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/mvnw",
-          "hash": "15069388377727069083"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/mvnw.cmd",
-          "hash": "1237986550895226753"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/pom.xml",
-          "hash": "16954527129017899261"
-        },
-        {
-          "file": "libs/spring-boot-app-parent/project.json",
-          "hash": "6935213384343902618"
-        }
-      ],
-      "monitoring-backend": [
-        {
-          "file": "apps/monitoring-backend/.gitattributes",
-          "hash": "6003687593561338678"
-        },
-        {
-          "file": "apps/monitoring-backend/.gitignore",
-          "hash": "13117984693027047402"
-        },
-        {
-          "file": "apps/monitoring-backend/.mvn/wrapper/maven-wrapper.properties",
-          "hash": "7720921598456675219"
-        },
-        {
-          "file": "apps/monitoring-backend/mvnw",
-          "hash": "15069388377727069083"
-        },
-        {
-          "file": "apps/monitoring-backend/mvnw.cmd",
-          "hash": "13144227073390459929"
-        },
-        {
-          "file": "apps/monitoring-backend/pom.xml",
-          "hash": "10733283953722424393"
-        },
-        {
-          "file": "apps/monitoring-backend/project.json",
-          "hash": "469552936307886110"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
-          "hash": "10227958509849902035"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/controller/HelloWorldController.java",
-          "hash": "4883338053699564421"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/resources/application.yml",
-          "hash": "2201160999119002749"
-        },
-        {
-          "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
-          "hash": "11854449020652478289"
-        }
-      ],
       "monitoring-frontend": [
         {
           "file": "apps/monitoring-frontend/.eslintrc.json",
@@ -308,6 +190,120 @@
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
           ]
+        }
+      ],
+      "monitoring-backend": [
+        {
+          "file": "apps/monitoring-backend/.gitattributes",
+          "hash": "6003687593561338678"
+        },
+        {
+          "file": "apps/monitoring-backend/.gitignore",
+          "hash": "13117984693027047402"
+        },
+        {
+          "file": "apps/monitoring-backend/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "7720921598456675219"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw.cmd",
+          "hash": "13144227073390459929"
+        },
+        {
+          "file": "apps/monitoring-backend/pom.xml",
+          "hash": "13517506814424527517"
+        },
+        {
+          "file": "apps/monitoring-backend/project.json",
+          "hash": "449152801660901480"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
+          "hash": "10227958509849902035"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/resources/application.yml",
+          "hash": "9847343864948945663"
+        },
+        {
+          "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
+          "hash": "11854449020652478289"
+        }
+      ],
+      "spring-boot-app-parent": [
+        {
+          "file": "libs/spring-boot-app-parent/.gitattributes",
+          "hash": "6003687593561338678"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.gitignore",
+          "hash": "13117984693027047402"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "17371307258817685141"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw.cmd",
+          "hash": "1237986550895226753"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/pom.xml",
+          "hash": "16954527129017899261"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/project.json",
+          "hash": "6935213384343902618"
+        }
+      ],
+      "monitoring-frontend-e2e": [
+        {
+          "file": "apps/monitoring-frontend-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/cypress.config.ts",
+          "hash": "11942610436327298517",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/project.json",
+          "hash": "13007826820686982554"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "14701012643390378531"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
         }
       ]
     }

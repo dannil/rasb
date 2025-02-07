@@ -2,7 +2,12 @@
   "name": "monitoring-backend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/monitoring-backend/src",
-  "projectType": "application",
   "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nxrocks/nx-spring-boot:build",
+      "dependsOn": ["build spring-boot-app-parent"]
+    }
+  },
   "implicitDependencies": ["spring-boot-app-parent"]
 }

@@ -1150,10 +1150,6 @@
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
     ],
-    "projectType": [
-      "apps/monitoring-backend/project.json",
-      "nx/core/project-json"
-    ],
     "tags": [
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
@@ -1163,6 +1159,22 @@
       "nx/core/project-json"
     ],
     "implicitDependencies.spring-boot-app-parent": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.dependsOn": [
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
     ]

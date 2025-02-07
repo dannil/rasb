@@ -625,18 +625,27 @@
     },
     "monitoring-backend": {
       "name": "monitoring-backend",
-      "type": "app",
+      "type": "lib",
       "data": {
         "root": "apps/monitoring-backend",
         "name": "monitoring-backend",
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "apps/monitoring-backend/src",
-        "projectType": "application",
         "tags": [],
         "implicitDependencies": [
           "spring-boot-app-parent"
         ],
-        "targets": {}
+        "targets": {
+          "build": {
+            "executor": "@nxrocks/nx-spring-boot:build",
+            "dependsOn": [
+              "build spring-boot-app-parent"
+            ],
+            "configurations": {},
+            "options": {},
+            "parallelism": true
+          }
+        }
       }
     }
   },
@@ -26878,5 +26887,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1738967512259
+  "computedAt": 1738969710147
 }
