@@ -86,7 +86,7 @@
       },
       {
         "file": "nx.json",
-        "hash": "18434748603688558921"
+        "hash": "13482051808964949046"
       },
       {
         "file": "package-lock.json",
@@ -94,15 +94,15 @@
       },
       {
         "file": "package.json",
-        "hash": "6379520181216299965"
+        "hash": "15279813495681006798"
       },
       {
         "file": "tsconfig.base.json",
-        "hash": "2901341810468272301"
+        "hash": "16936441711144470533"
       },
       {
         "file": "vitest.workspace.ts",
-        "hash": "10510818307242693271"
+        "hash": "7870362608836821141"
       }
     ],
     "projectFileMap": {
@@ -148,6 +148,82 @@
           "hash": "10740392072068377465"
         }
       ],
+      "spring-boot-app-parent": [
+        {
+          "file": "libs/spring-boot-app-parent/.gitattributes",
+          "hash": "6003687593561338678"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.gitignore",
+          "hash": "13117984693027047402"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "17371307258817685141"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw.cmd",
+          "hash": "1237986550895226753"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/pom.xml",
+          "hash": "16954527129017899261"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/project.json",
+          "hash": "6935213384343902618"
+        }
+      ],
+      "monitoring-backend": [
+        {
+          "file": "apps/monitoring-backend/.gitattributes",
+          "hash": "6003687593561338678"
+        },
+        {
+          "file": "apps/monitoring-backend/.gitignore",
+          "hash": "13117984693027047402"
+        },
+        {
+          "file": "apps/monitoring-backend/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "7720921598456675219"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "apps/monitoring-backend/mvnw.cmd",
+          "hash": "13144227073390459929"
+        },
+        {
+          "file": "apps/monitoring-backend/pom.xml",
+          "hash": "10733283953722424393"
+        },
+        {
+          "file": "apps/monitoring-backend/project.json",
+          "hash": "469552936307886110"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
+          "hash": "10227958509849902035"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/controller/HelloWorldController.java",
+          "hash": "4883338053699564421"
+        },
+        {
+          "file": "apps/monitoring-backend/src/main/resources/application.yml",
+          "hash": "2201160999119002749"
+        },
+        {
+          "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
+          "hash": "11854449020652478289"
+        }
+      ],
       "monitoring-frontend": [
         {
           "file": "apps/monitoring-frontend/.eslintrc.json",
@@ -159,7 +235,7 @@
         },
         {
           "file": "apps/monitoring-frontend/postcss.config.js",
-          "hash": "10671869409965183632"
+          "hash": "2759402739052110475"
         },
         {
           "file": "apps/monitoring-frontend/project.json",
@@ -222,62 +298,16 @@
         },
         {
           "file": "apps/monitoring-frontend/tsconfig.spec.json",
-          "hash": "2374680567064402239"
+          "hash": "10576700543203486552"
         },
         {
-          "file": "apps/monitoring-frontend/vite.config.mts",
+          "file": "apps/monitoring-frontend/vite.config.ts",
           "hash": "4860920474133079456",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
             "npm:@nx/vite"
           ]
-        }
-      ],
-      "monitoring-backend": [
-        {
-          "file": "apps/monitoring-backend/.gitattributes",
-          "hash": "6003687593561338678"
-        },
-        {
-          "file": "apps/monitoring-backend/.gitignore",
-          "hash": "13117984693027047402"
-        },
-        {
-          "file": "apps/monitoring-backend/.mvn/wrapper/maven-wrapper.properties",
-          "hash": "7720921598456675219"
-        },
-        {
-          "file": "apps/monitoring-backend/mvnw",
-          "hash": "15069388377727069083"
-        },
-        {
-          "file": "apps/monitoring-backend/mvnw.cmd",
-          "hash": "13144227073390459929"
-        },
-        {
-          "file": "apps/monitoring-backend/pom.xml",
-          "hash": "9233756504339227761"
-        },
-        {
-          "file": "apps/monitoring-backend/project.json",
-          "hash": "16077863284392115224"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
-          "hash": "10227958509849902035"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/controller/HelloWorldController.java",
-          "hash": "4883338053699564421"
-        },
-        {
-          "file": "apps/monitoring-backend/src/main/resources/application.yml",
-          "hash": "2201160999119002749"
-        },
-        {
-          "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
-          "hash": "11854449020652478289"
         }
       ]
     }

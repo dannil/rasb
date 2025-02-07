@@ -2,5 +2,7 @@
   "name": "monitoring-backend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/monitoring-backend/src",
-  "tags": []
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["spring-boot-app-parent"]
 }
