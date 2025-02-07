@@ -211,6 +211,148 @@
         ]
       }
     },
+    "spring-boot-app-parent": {
+      "name": "spring-boot-app-parent",
+      "type": "app",
+      "data": {
+        "root": "libs/spring-boot-app-parent",
+        "name": "spring-boot-app-parent",
+        "projectType": "application",
+        "tags": [
+          "type:nx-spring-boot"
+        ],
+        "targets": {
+          "build": {
+            "executor": "@nxrocks/nx-spring-boot:build",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "cache": true,
+            "dependsOn": [
+              "^install"
+            ],
+            "outputs": [
+              "{workspaceRoot}/libs/spring-boot-app-parent/target"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "install": {
+            "executor": "@nxrocks/nx-spring-boot:install",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "cache": true,
+            "dependsOn": [
+              "^install"
+            ],
+            "outputs": [
+              "{workspaceRoot}/libs/spring-boot-app-parent/target"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "test": {
+            "executor": "@nxrocks/nx-spring-boot:test",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "outputs": [
+              "{workspaceRoot}/libs/spring-boot-app-parent/target"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "clean": {
+            "executor": "@nxrocks/nx-spring-boot:clean",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "format": {
+            "executor": "@nxrocks/nx-spring-boot:format",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "apply-format": {
+            "executor": "@nxrocks/nx-spring-boot:apply-format",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "check-format": {
+            "executor": "@nxrocks/nx-spring-boot:check-format",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "configurations": {},
+            "parallelism": true
+          },
+          "run": {
+            "executor": "@nxrocks/nx-spring-boot:run",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "dependsOn": [
+              "^install"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "serve": {
+            "executor": "@nxrocks/nx-spring-boot:serve",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "dependsOn": [
+              "^install"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "build-image": {
+            "executor": "@nxrocks/nx-spring-boot:build-image",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "outputs": [
+              "{workspaceRoot}/libs/spring-boot-app-parent/target"
+            ],
+            "configurations": {},
+            "parallelism": true
+          },
+          "build-info": {
+            "executor": "@nxrocks/nx-spring-boot:build-info",
+            "options": {
+              "root": "libs/spring-boot-app-parent",
+              "runFromParentModule": false
+            },
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "libs/spring-boot-app-parent/src",
+        "implicitDependencies": []
+      }
+    },
     "monitoring-frontend": {
       "name": "monitoring-frontend",
       "type": "app",
@@ -483,144 +625,27 @@
     },
     "monitoring-backend": {
       "name": "monitoring-backend",
-      "type": "app",
+      "type": "lib",
       "data": {
         "root": "apps/monitoring-backend",
         "name": "monitoring-backend",
-        "projectType": "application",
-        "tags": [
-          "type:nx-spring-boot"
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "apps/monitoring-backend/src",
+        "tags": [],
+        "implicitDependencies": [
+          "spring-boot-app-parent"
         ],
         "targets": {
-          "build": {
-            "executor": "@nxrocks/nx-spring-boot:build",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "cache": true,
-            "dependsOn": [
-              "^install"
-            ],
-            "outputs": [
-              "{workspaceRoot}/apps/monitoring-backend/target"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
-          "install": {
-            "executor": "@nxrocks/nx-spring-boot:install",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "cache": true,
-            "dependsOn": [
-              "^install"
-            ],
-            "outputs": [
-              "{workspaceRoot}/apps/monitoring-backend/target"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
-          "test": {
-            "executor": "@nxrocks/nx-spring-boot:test",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "outputs": [
-              "{workspaceRoot}/apps/monitoring-backend/target"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
-          "clean": {
-            "executor": "@nxrocks/nx-spring-boot:clean",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "format": {
-            "executor": "@nxrocks/nx-spring-boot:format",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "apply-format": {
-            "executor": "@nxrocks/nx-spring-boot:apply-format",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "check-format": {
-            "executor": "@nxrocks/nx-spring-boot:check-format",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "configurations": {},
-            "parallelism": true
-          },
-          "run": {
-            "executor": "@nxrocks/nx-spring-boot:run",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "dependsOn": [
-              "^install"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
-          "serve": {
-            "executor": "@nxrocks/nx-spring-boot:serve",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "dependsOn": [
-              "^install"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
           "build-image": {
-            "executor": "@nxrocks/nx-spring-boot:build-image",
+            "executor": "nx:run-commands",
             "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
-            },
-            "outputs": [
-              "{workspaceRoot}/apps/monitoring-backend/target"
-            ],
-            "configurations": {},
-            "parallelism": true
-          },
-          "build-info": {
-            "executor": "@nxrocks/nx-spring-boot:build-info",
-            "options": {
-              "root": "apps/monitoring-backend",
-              "runFromParentModule": false
+              "cwd": "apps/monitoring-backend",
+              "command": "docker build -t rasb/monitoring-backend ."
             },
             "configurations": {},
             "parallelism": true
           }
-        },
-        "$schema": "../../node_modules/nx/schemas/project-schema.json",
-        "sourceRoot": "apps/monitoring-backend/src",
-        "implicitDependencies": []
+        }
       }
     }
   },
@@ -12182,6 +12207,7 @@
         "type": "static"
       }
     ],
+    "spring-boot-app-parent": [],
     "monitoring-frontend": [
       {
         "source": "monitoring-frontend",
@@ -12224,7 +12250,13 @@
         "type": "static"
       }
     ],
-    "monitoring-backend": [],
+    "monitoring-backend": [
+      {
+        "source": "monitoring-backend",
+        "target": "spring-boot-app-parent",
+        "type": "implicit"
+      }
+    ],
     "npm:@ampproject/remapping": [
       {
         "source": "npm:@ampproject/remapping",
@@ -26855,5 +26887,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1738877518525
+  "computedAt": 1738964070337
 }

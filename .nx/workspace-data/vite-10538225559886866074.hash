@@ -1,5 +1,5 @@
 {
-  "4639122377522658592apps/monitoring-frontend/vite.config.mts": {
+  "14673620494527268520apps/monitoring-frontend/vite.config.ts": {
     "targets": {
       "build": {
         "command": "vite build",

@@ -9,387 +9,387 @@
       "nx/core/project-json"
     ],
     "targets": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.cache": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.dependsOn": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.inputs": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.outputs": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve.metadata.deprecated": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.dev.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.dependsOn": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.preview.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve-static": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options.buildTarget": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.serve-static.options.spa": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.cache": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.inputs": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.typecheck.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.cache": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.inputs": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.outputs": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.options.cwd": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.technologies": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.technologies.0": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.description": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.help": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.help.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.test.metadata.help.example": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build-deps": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.build-deps.dependsOn": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.dependsOn": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.executor": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.options": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.watch-deps.options.command": [
-      "apps/monitoring-frontend/vite.config.mts",
+      "apps/monitoring-frontend/vite.config.ts",
       "@nx/vite/plugin"
     ],
     "targets.lint": [
@@ -839,6 +839,300 @@
       "nx/core/project-json"
     ]
   },
+  "libs/spring-boot-app-parent": {
+    "root": [
+      "libs/spring-boot-app-parent/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "libs/spring-boot-app-parent/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "tags": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "tags.type:nx-spring-boot": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.cache": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.dependsOn": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.outputs": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.cache": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.dependsOn": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.outputs": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.install.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test.outputs": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.test.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.clean": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.clean.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.clean.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.clean.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.clean.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.format": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.format.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.format.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.format.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.format.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.apply-format": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.apply-format.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.apply-format.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.apply-format.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.apply-format.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.check-format": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.check-format.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.check-format.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.check-format.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.check-format.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run.dependsOn": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.run.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve.dependsOn": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.serve.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image.outputs": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-image.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-info": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-info.executor": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-info.options": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-info.options.root": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "targets.build-info.options.runFromParentModule": [
+      "libs/spring-boot-app-parent/pom.xml",
+      "@nxrocks/nx-spring-boot"
+    ],
+    "$schema": [
+      "libs/spring-boot-app-parent/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "libs/spring-boot-app-parent/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "apps/monitoring-backend": {
     "root": [
       "apps/monitoring-backend/project.json",
@@ -848,287 +1142,47 @@
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
     ],
-    "projectType": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "tags": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "tags.type:nx-spring-boot": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.cache": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.dependsOn": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.outputs": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.cache": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.dependsOn": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.outputs": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.install.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test.outputs": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.test.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.clean": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.clean.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.clean.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.clean.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.clean.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.format": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.format.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.format.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.format.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.format.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.apply-format": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.apply-format.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.apply-format.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.apply-format.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.apply-format.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.check-format": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.check-format.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.check-format.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.check-format.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.check-format.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run.dependsOn": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.run.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve.dependsOn": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.serve.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image.outputs": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-image.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-info": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-info.executor": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-info.options": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-info.options.root": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
-    "targets.build-info.options.runFromParentModule": [
-      "apps/monitoring-backend/pom.xml",
-      "@nxrocks/nx-spring-boot"
-    ],
     "$schema": [
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
     ],
     "sourceRoot": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.spring-boot-app-parent": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-image": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-image.executor": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-image.options": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-image.options.cwd": [
+      "apps/monitoring-backend/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build-image.options.command": [
       "apps/monitoring-backend/project.json",
       "nx/core/project-json"
     ]

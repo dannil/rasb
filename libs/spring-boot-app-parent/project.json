@@ -1,0 +1,6 @@
+{
+  "name": "spring-boot-app-parent",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/spring-boot-app-parent/src",
+  "tags": []
+}

@@ -62,7 +62,7 @@
       },
       {
         "file": ".github/workflows/ci.yml",
-        "hash": "1557864486882838494"
+        "hash": "932927771352814558"
       },
       {
         "file": ".gitignore",
@@ -86,7 +86,7 @@
       },
       {
         "file": "nx.json",
-        "hash": "18434748603688558921"
+        "hash": "9091092693289049831"
       },
       {
         "file": "package-lock.json",
@@ -94,60 +94,18 @@
       },
       {
         "file": "package.json",
-        "hash": "6379520181216299965"
+        "hash": "15279813495681006798"
       },
       {
         "file": "tsconfig.base.json",
-        "hash": "2901341810468272301"
+        "hash": "16936441711144470533"
       },
       {
         "file": "vitest.workspace.ts",
-        "hash": "10510818307242693271"
+        "hash": "7870362608836821141"
       }
     ],
     "projectFileMap": {
-      "monitoring-frontend-e2e": [
-        {
-          "file": "apps/monitoring-frontend-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/cypress.config.ts",
-          "hash": "11942610436327298517",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/project.json",
-          "hash": "13007826820686982554"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "14701012643390378531"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/monitoring-frontend-e2e/tsconfig.json",
-          "hash": "10740392072068377465"
-        }
-      ],
       "monitoring-frontend": [
         {
           "file": "apps/monitoring-frontend/.eslintrc.json",
@@ -159,7 +117,7 @@
         },
         {
           "file": "apps/monitoring-frontend/postcss.config.js",
-          "hash": "10671869409965183632"
+          "hash": "2759402739052110475"
         },
         {
           "file": "apps/monitoring-frontend/project.json",
@@ -222,10 +180,10 @@
         },
         {
           "file": "apps/monitoring-frontend/tsconfig.spec.json",
-          "hash": "2374680567064402239"
+          "hash": "10576700543203486552"
         },
         {
-          "file": "apps/monitoring-frontend/vite.config.mts",
+          "file": "apps/monitoring-frontend/vite.config.ts",
           "hash": "4860920474133079456",
           "deps": [
             "npm:vite",
@@ -248,6 +206,10 @@
           "hash": "7720921598456675219"
         },
         {
+          "file": "apps/monitoring-backend/Dockerfile",
+          "hash": "1511328281126321346"
+        },
+        {
           "file": "apps/monitoring-backend/mvnw",
           "hash": "15069388377727069083"
         },
@@ -257,11 +219,11 @@
         },
         {
           "file": "apps/monitoring-backend/pom.xml",
-          "hash": "9233756504339227761"
+          "hash": "10733283953722424393"
         },
         {
           "file": "apps/monitoring-backend/project.json",
-          "hash": "16077863284392115224"
+          "hash": "6200664291784873690"
         },
         {
           "file": "apps/monitoring-backend/src/main/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplication.java",
@@ -278,6 +240,78 @@
         {
           "file": "apps/monitoring-backend/src/test/java/com/github/dannil/rasb/monitoring/MonitoringBackendApplicationTests.java",
           "hash": "11854449020652478289"
+        }
+      ],
+      "spring-boot-app-parent": [
+        {
+          "file": "libs/spring-boot-app-parent/.gitattributes",
+          "hash": "17114280768597301225"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.gitignore",
+          "hash": "7919888732090103848"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/.mvn/wrapper/maven-wrapper.properties",
+          "hash": "17371307258817685141"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw",
+          "hash": "15069388377727069083"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/mvnw.cmd",
+          "hash": "1237986550895226753"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/pom.xml",
+          "hash": "16954527129017899261"
+        },
+        {
+          "file": "libs/spring-boot-app-parent/project.json",
+          "hash": "7731817580729708596"
+        }
+      ],
+      "monitoring-frontend-e2e": [
+        {
+          "file": "apps/monitoring-frontend-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/cypress.config.ts",
+          "hash": "11942610436327298517",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/project.json",
+          "hash": "13007826820686982554"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "14701012643390378531"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/monitoring-frontend-e2e/tsconfig.json",
+          "hash": "10740392072068377465"
         }
       ]
     }
